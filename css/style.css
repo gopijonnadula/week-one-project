@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+    /* padding: 0 40px; */
+}
+
+.border{
+    height: 40px;
+    background-color: yellow;
+}
+
+
+.navbar .navlinks a{
+    /* padding: 10px; */
+    margin-right: 10px;
+}
+
+.navbar .logo{
+    margin-left: 50px;
+}
+.hero-section{
+    background-image: url("../img/showcase.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* padding: 0 70px; */
+    /* background-color: blue; */
+}
+
+.content .html{
+    width: 200px;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.content .html button{
+    padding: 20px 25px;
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+.content .css{
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content .js{
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content img{
+    width: 80px;
+}
+
+.copyright{
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+}
+
+.main-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.ser-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1200px;
+}
+.ser-container .big .card{
+    /* width: 50%; */
+    height: 150px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.ser-container .big .card-one{
+    margin-top: 20px;
+}
